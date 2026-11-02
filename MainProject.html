@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Main Page</title>
+<style>
+
+  body {
+    background: #E4D5C8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navigationmenu {
+    display: flex;
+    align-items: center;
+    font-family: "Times New Roman", serif;
+    font-size: 25px;
+    padding: 18px 40px;
+    background: #C7D7B4;
+    gap: 20px;
+  }
+
+  .navigationmenu a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 20px 3px;
+  }
+
+  .navigationmenu a:hover {
+    text-decoration: underline;
+  }
+
+  .logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 25px;
+    text-align: left;
+    font-family: arial, sans-serif;
+    color: #3d4144;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #3d4144;
+    text-align: left;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: #2b2b2b;
+  }
+  
+  .mainbanner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 40px;
+  }
+
+  .bannertext {
+    width: 480px;
+  }
+
+  .bannertext-small {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #52565a;
+  }
+
+  .bannertext h1 {
+    font-size: 50px;
+    font-weight: normal;
+    color: #3d4144;
+    margin: 14px 0 26px 0;
+  }
+
+  .button {
+    display: inline-block;
+    background: #d9534f;
+    color: white;
+    padding: 14px 34px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+  }
+
+  .button:hover {
+    background: #b9423e;
+  }
+
+  .bannerpicture {
+    width: 320px;
+    height: 320px;
+    background: #d0c0b2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 320px;
+    color: #52565a;
+    font-size: 16px;
+  }
+
+  .inventory {
+    padding: 30px 50px 50px 40px;
+  }
+
+  .inventory h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .balikbayan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .boxer {
+    background: white;
+    width: 220px;
+    padding: 14px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .picture {
+	height: 150px;
+    width: 190px;
+    background: #d0c0b2;
+    margin: auto;
+    line-height: 150px;
+    font-size: 13px;
+    color: #52565a;
+  }
+
+  .boxer h3 {
+    font-size: 18px;
+    color: #3d4144;
+    margin: 10px 0 4px 0;
+  }
+
+  .boxer p {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0 10px 0;
+  }
+
+  .boxer .price {
+    font-weight: bold;
+    color: #3d4144;
+  }
+
+  .clickablebutton {
+    display: inline-block;
+    background: #6E7376;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 3px;
+  }
+
+  .clickablebutton:hover {
+    background: #52565a;
+  }
+
+  .ending {
+    background: #6E7376;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <div class = "navigationmenu">
+    <div class = "logo"> WALA PA </div>
+    <a href = ""> Home </a>
+    <a href = ""> Shop </a>
+    <a href = "l"> About </a>
+    <a href = ""> Contact </a>
+    <a href = ""> Cart (?) </a>
+  </div>
+
+  <div class = "mainbanner">
+    <div class = "bannertext">
+      <div class = "bannertext-small"> First header siguro </div>
+      <h1> Sub header siguro </h1>
+      <a class = "button" href="shop.html"> Introduction to Programming Laboratory </a>
+    </div>
+
+    <div class = "bannerpicture"> Place holder </div>
+  </div>
+
+  <div class = "inventory">
+    <h2>Featured products</h2>
+
+    <div class = "balikbayan">
+
+      <div class = "boxer">
+        <div class = "picture"> Place Holder </div>
+        <h3> Place Holder </h3>
+        <p> description </p>
+        <p class = "price">&#8369;wala pa</p>
+        <a class = "clickablebutton" href="product.html"> View </a>
+      </div>
+
+      <div class = "boxer">
+        <div class = "picture"> Picture here </div>
+        <h3> Place Holder </h3>
+        <p> description </p>
+        <p class = "price">&#8369;wala pa</p>
+        <a class = "clickablebutton" href="product.html">View</a>
+      </div>
+
+      <div class = "boxer">
+        <div class = "picture"> Picture here </div>
+        <h3> Place Holder </h3>
+        <p> description </p>
+        <p class = "price">&#8369;wala pa</p>
+        <a class = "clickablebutton" href="product.html"> View </a>
+      </div>
+
+      <div class = "boxer">
+        <div class="picture">Picture here</div>
+        <h3> Place Holder </h3>
+        <p> description </p>
+        <p class  "price">&#8369;wala pa</p>
+        <a class = "clickablebutton" href="product.html">View</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class = "ending">
+    ITC Programming Laboratory Finals @ 2026
+  </div>
+
+</body>
+</html>
